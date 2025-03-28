@@ -183,6 +183,11 @@ nav.bg-white {
   nav .container {
     max-width: 550px;
   }
+
+  #home .home-img,
+  #home .home-content {
+    width: 100%;
+  }
 }
 
 @media (max-width: 580px) {
