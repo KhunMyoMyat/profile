@@ -1,7 +1,6 @@
 const nav = document.querySelector("nav");
-
 window.addEventListener("scroll", function () {
-  if (this.scrollY > 90) {
+  if (window.scrollY > 123) {
     nav.classList.add("bg-white");
   } else {
     nav.classList.remove("bg-white");
@@ -10,7 +9,11 @@ window.addEventListener("scroll", function () {
 
 const toggle = document.querySelector("#toggle");
 const menu = document.querySelector(".menu");
-
 toggle.addEventListener("click", function () {
+  // if(menu.classList.contains('active')) {
+  //     menu.classList.remove("active")
+  // } else {
+  //     menu.classList.add("active")
+  // }
   menu.classList.toggle("active");
 });
