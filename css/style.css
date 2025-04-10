@@ -332,8 +332,30 @@ nav .menu li a:hover {
 #education .education-content .box p {
   color: var(--white);
 }
-
 /* experience & education end */
+
+/* testimonial start */
+#testimonial {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(../img/testi.jpg) no-repeat center center/cover;
+  padding: 5rem;
+  text-align: center;
+}
+
+#testimonial i {
+  font-size: 3rem;
+  color: var(--white);
+}
+
+#testimonial h1 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+#testimonial p {
+  color: var(--gray);
+}
+/* testimonial end */
 
 /* media query */
 @media (max-width: 1200px) {
