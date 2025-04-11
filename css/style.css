@@ -390,7 +390,7 @@ nav .menu li a:hover {
   transition: all 0.7s;
 }
 
-#contact .contact-form::placeholder,
+#contact .contact-form input::placeholder,
 #contact .contact-form textarea::placeholder {
   font-size: 1rem;
   color: var(--white);
@@ -410,6 +410,7 @@ nav .menu li a:hover {
   border-radius: 2rem;
   color: var(--black);
   font-weight: lighter;
+  cursor: pointer;
 }
 
 #contact .contact-img img {
