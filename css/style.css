@@ -436,8 +436,42 @@ nav .menu li a:hover {
   color: var(--yellow);
   text-decoration: none;
 }
-
 /* contact end */
+
+/* footer start */
+footer {
+  text-align: center;
+  padding: 7rem 0;
+}
+
+footer p {
+  color: var(--gray);
+  padding: 1.5rem 0;
+}
+
+footer a {
+  display: inline-block;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  line-height: 3.5rem;
+  margin-right: 0.5rem;
+  color: var(--gray);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+footer a:nth-of-type(1) {
+  margin-right: 0;
+}
+
+footer a:hover {
+  background-color: var(--yellow);
+  color: var(--white);
+}
+/* footer end */
+
 /* media query */
 @media (max-width: 1200px) {
   nav .container {
@@ -487,7 +521,7 @@ nav .menu li a:hover {
   #about .about-box {
     width: 50%;
   }
-
+  /* contact */
   #contact .contact-form {
     width: 100%;
   }
@@ -517,6 +551,10 @@ nav .menu li a:hover {
   #experience .experience-content,
   #education .education-img,
   #education .education-content {
+    width: 100%;
+  }
+
+  #contact .contact-form button {
     width: 100%;
   }
 }
